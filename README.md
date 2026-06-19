@@ -1,5 +1,5 @@
 # NadiOS — Personal Productivity System
-
+![Dashboard NadiOS](assets/readme/index.png)
 NadiOS adalah aplikasi web berbasis **PHP Native** dan **MySQL** yang membantu pengguna mengelola produktivitas pribadi dalam satu ruang. Aplikasi ini menyediakan fitur untuk mencatat tujuan, mengelola project, menyusun task, membangun habit, menulis journal, serta menggunakan bantuan **Nara AI** untuk rekomendasi prioritas dan refleksi harian.
 
 ## Studi Kasus
@@ -7,7 +7,8 @@ NadiOS adalah aplikasi web berbasis **PHP Native** dan **MySQL** yang membantu p
 Banyak pengguna kesulitan mengelola aktivitas pribadi karena goal, project, task, kebiasaan, dan catatan harian sering tersebar di tempat berbeda. NadiOS dibuat untuk menyatukan seluruh proses tersebut agar pengguna dapat merencanakan, menjalankan, memantau, dan mengevaluasi produktivitas hariannya secara lebih terstruktur.
 
 ## Fitur Utama
-
+![Dashboard NadiOS](assets/readme/dashboard.png)
+![Dashboard NadiOS](assets/readme/calender.png)
 - **Register dan Login** menggunakan akun lokal.
 - **Login dengan Google** menggunakan OAuth.
 - **Dashboard** untuk melihat ringkasan goal, project, task, habit, journal, dan agenda.
@@ -93,20 +94,7 @@ NadiOS dapat dijalankan secara online melalui tautan hosting berikut:
 https://nadios.site.je/NadiOS/
 ```
 
-Tautan tersebut mengarah ke aplikasi NadiOS versi web yang telah di-deploy secara publik, sehingga pengguna dapat mengakses dan mencoba fitur aplikasi tanpa menjalankannya melalui localhost.
-
-```
-
-## Catatan Keamanan
-
-File berikut tidak disarankan untuk dipublikasikan ke repository GitHub karena berisi data rahasia:
-
-```text
-google_config.php
-config/ai_config.php
-```
-
-Gunakan file contoh seperti `google_config.example.php` dan `ai_config.example.php` untuk dokumentasi konfigurasi.
+Tautan tersebut mengarah ke aplikasi NadiOS versi web yang telah di-deploy secara publik, sehingga dapat mengakses dan mencoba fitur aplikasi tanpa menjalankannya melalui localhost.
 
 ## Akun Demo
 
@@ -128,5 +116,5 @@ NadiOS telah mencakup fitur CRUD, relasi database, upload file/gambar, autentika
 Dikembangkan oleh:
 
 ```text
-Lintang Angrenggani Kusuma R.
+Lintang Angrenggani Kusuma R. - 202431083
 ```
