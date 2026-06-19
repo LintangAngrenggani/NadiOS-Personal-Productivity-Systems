@@ -1,0 +1,28 @@
+# Secret configuration files
+google_config.php
+config/ai_config.php
+
+# Local environment files
+.env
+*.env
+
+# Uploaded user files
+uploads/goals/*
+uploads/projects/*
+uploads/tasks/*
+uploads/journals/*
+
+# Keep upload folders available in Git
+!uploads/goals/.gitkeep
+!uploads/projects/.gitkeep
+!uploads/tasks/.gitkeep
+!uploads/journals/.gitkeep
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log
